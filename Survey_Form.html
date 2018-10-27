@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  </head>
+  <style>
+    #body{
+      background-color: #9933ff;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+    }
+    #main{
+      background-color: rgb(255, 255, 255);
+      border-radius: 5px;
+    }
+    #title{
+      color: white;
+      text-align: center;
+    }
+    #description{
+      padding-top: 10px;
+    }
+    .stock_photo{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    border-radius: 900px;
+    }
+    #top3inputs{
+      padding: 0px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+
+    body {
+      margin: 50px;
+    }
+  input [type=_checkbox]{
+    border: groove;
+  }
+  </style>
+
+  <html>
+    <body id="body">
+      <header id="title">
+        <h1>Hot Diggidy Dog Survey</h1>
+      </header>
+      <img src="dog-stock.jpg" class="stock_photo"/>
+      <main id="main">
+        <div id="description">
+          <p>Let us know how to improve the website quality of Hot Diggidy Dog.</p>
+          <p>We value customer experience and user-friendliness to ensure happiness for canines and people.</p>
+        </div>
+        <hr>
+        <form id="survey-form">
+            <div id="name">
+            <label id="name-label" class="Lcolumn">* Name:
+            </label>
+            <input autofocus type="text" name="name" class="Rcolumn" id="name" placeholder="Enter your name" required>
+          </div>
+          <div>
+          </div>
+          <div id="email">
+            <label id="email=label" class="Lcolumn">* Email: </label>
+            <input type="email" class="Rcolumn" name="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div>
+          </div>
+          <div id="number">
+            <label id="number-label" class="Lcolumn">* Dog Count:</label>
+            <input type="number" class="Rcolumn" name="dog-count" id="dog-count" placeholder="# of dogs you own" min="0" max="10" required>
+          </div>
+      <div>
+        <label class="Lcolumn"> What's your favorite Hot Diggidy Dog Merchandise?</label><br>
+        <select id="dropdown" class="Rcolumn">
+          <option disabled value>Select Merch</option>
+          <option>Dog Clothes</option>
+          <option>Leashes/Harnesses</option>
+          <option>Dog Beds</option>
+          <option>Bowls/Food Accesories</option>
+          <option>Dog Toys</option>
+          <option>T-Shirts</option>
+        </select>
+    </div>
+    <br>
+    <br>
+    <div style="border: groove;">
+        <label class="Lcolumn">
+          What size best describes your current dog(s)? (Check all that apply):
+        </label>
+        <div class="Rcolumn">
+        <input type="checkbox" value="dog-size">N/A<br>
+        <input type="checkbox" value="dog-size">toy: up to 12lbs<br>
+        <input type="checkbox" value="dog-size">small: 12lbs-25lbs<br>
+        <input type="checkbox" value="dog-size">medium: 25lbs to 50lbs<br>
+        <input type="checkbox" value="dog-size">large: 50lbs to 100lbs<br>
+        <input type="checkbox" value="dog-size">extra-large: 100+lbs<br>
+      </div>
+    </div>
+    <br>
+    <br>
+      <div style="border: groove;">
+        <label class="Lcolumn">
+          Would you like more information about Hot Diggidy Dog?:
+        </label>
+        <br>
+        <label class="Rcolumn">
+          <input type="radio" name="YN">Yes<br>
+          <input type="radio" name="YN">No<br>
+          <input type="radio" name="YN">Unsure: only send me 1 informational email<br>
+        </label>
+      </div>
+      <br>
+      <br>
+        <div style="border: groove;">
+          <label class="Lcolumn">What products would you like to see in the future? (Select all that apply)</label>
+          <input type="checkbox" value="future-products">Pet Training<br>
+          <input type="checkbox" value="future-products">Brushes<br>
+          <input type="checkbox" value="future-products">Toenail Clippers<br>
+          <input type="checkbox" value="future-products">Anti-Chew Spray<br>
+          <input type="checkbox" value="future-products">Crates<br>
+          <input type="checkbox" value="future-products">Poop Scoops & Bags<br>
+          <input type="checkbox" value="future-products">Toothbrushes<br>
+          <input type="checkbox" value="future-products">Treats<br>
+        </div>
+        <br>
+        <br>
+        <div id="textarea">
+          <label>Comments or Suggestions for Hot Diggidy Dog
+          </label>
+          <textarea class="Rcolumn" rows="7" cols="100" placeholder="Please enter your feedback here. We value your input."></textarea>
+        </div>
+          <button id="submit">Submit Form</button>
+        </form>
+      </main>
+      <footer>
+        <p style="color:white;"> Disclaimer: Submitting this page does nothing. This is an early project to practice front-end development. The real Hot Diggidy Dog can be found <a href="#">here</a>. (Link coming soon)</p>
+      </footer>
+    </body>
+  </html>
