@@ -1,0 +1,12 @@
+body{
+	font-family: 'Rubik', sans-serif;
+}
+.jumbotron a {
+	color: chartreuse;
+}
+#welcome-section{
+	min-height:55vh;
+}
+a.px-5 {
+	border-radius: 100%;
+}

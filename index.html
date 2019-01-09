@@ -1,22 +1,126 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Demetrious's Website</title>
-  </head>
-  <body>
-      <h1>Hello World</h1>
-      <h2>CSS Update Coming Soon</h2>
-    <p>Sorry for the undecorated page. I'm currently developing my skills using sites like FreeCodeCamp and codepen.io. I hope to soon make this an extraordinary portfolio.</p>
-    <h2>Projects: (Check back for updates:)</h2>
-    <br>
-    <p><a href="Tribute_Page.html">Project 1</a>: A Tribute to Garrett Morgan - 10/19/2018</p>
-    <p><a href="Survey_Form.html">Project 2</a>: A Survey for my Dog Store - 10/26/2018</p>
-    <p><a href="CollegeHelp.html">Project 3</a>: A Resource to Help Students in STEM Fields - 10/27/2018</p>
-    <p><a href="Blog_CSS.html">Project 4</a>: A Sample Blog -12/9/2018</p>
-    <p><a href="LandingPage/LandingPage.html">Project 5</a>: Product Landing Page from Colt Steele's Udemy Bootcamp - 12/12/2018</p>
-    <p><a href="BootstrapImageGallery.html">Project 6</a>: Bootstrap Image Gallery from Colt Steele's Udemy Bootcamp - 12/12/2018</p>
-    <p><a href="PatternProject.html">Project 7</a>: Pattern Project from Colt Steele's Udemy Bootcamp - 12/19/2018</p>
-    <p><a href="Museum_Candy.html">Project 8</a>: Museum of Candy Project from Colt Steele's Udemy Bootcamp - 12/20/2018</p>
-    <p><a href="ProductLandingPage.html">Project 9</a>: Bass Guitar City, A Product Landing Page Assignment from freeCodeCamp -12/24/2018</p>
-  </body>
+<head>
+	<title>D-Lloyd Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Portfolio.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+</head>
+<body>
+
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  <a class="navbar-brand" href="#">Demetrious Lloyd's Portfolio</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#welcome-section">About</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#projects">Projects</a>
+	      </li>
+	      <li class="nav-item active">
+	      	<a class="nav-link" href="#contact">Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+		<div id="welcome-section" class="jumbotron jumbotron-fluid bg-info text-light text-center px-5">
+		  <h1 class="display-3">Welcome to WebDev by D. Lloyd</h1>
+		  <p class="lead display-5 my-4">This is a portfolio and contact form for the latest projects on my web development journey.</p>
+		  <hr class="my-4">
+		  <p class="display-5">Hey, I'm Demetrious Lloyd. On August 2018 I made the commitment to learn web development professionally. I am currently enrolled in Colt Steele's Web Developer Bootcamp on <a href="https://www.udemy.com/the-web-developer-bootcamp">Udemy.</a> My knowledge is supplemented/supported by the resources and video tutorials from <a href="https://www.freecodecamp.org/">freeCodeCamp</a>. I'm a California native currently located in Tallahassee, Florida.</p>
+		  <br>
+		  <p>Presently, my knowledge spans from a clear understanding of HTML, CSS, and Bootstrap (3 and 4). I have had previous experience with pseudo-programming languages such as Mathematica and LaTeX and basic experience with Python 3. I am currently learning the dynamic Javascript language and hope to follow this with more Python or PHP.</p>
+		</div>
+		<div class="row" id="projects">
+			<div class="col-12 text-center display-4 mb-4"> Various Projects</div>
+		</div>
+		<div class="row d-flex justify-content-between">
+			<a class="col-6" id="projects" href="Tribute_Page.html"> 
+				<div class="card" style="width: 18rem;">
+  				<img src="Tribute.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text">A Tribute to Garrett Morgan</p>
+ 					</div>
+				</div>
+			</a>
+			<a class="col-6" href="Survey_Form.html"> 
+				<div class="card" style="width: 18rem;">
+  				<img src="Survey.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text">A Survey for a Dog Store</p>
+ 					</div>
+				</div>
+			</a>
+		</div>
+		<div class="row d-flex justify-content-between">
+			<a class="col-6" href="CollegeHelp.html">
+				<div class="card" style="width: 18rem;">
+  				<img src="College.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text">A Resource to Help Students in STEM Fields</p>
+ 					</div>
+				</div>
+			</a>
+			<a class="col-6" href="ProductLandingPage.html">
+				<div class="card" style="width: 18rem;">
+  				<img src="Bass.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text project-title">Bass Guitar City: A Product Landing Page Assignment from freeCodeCamp</p>
+ 					</div>
+				</div>
+			</a>
+		</div>
+		<div class="row d-flex justify-content-between">
+			<a class="col-6" href="Blog_CSS.html">
+				<div class="card" style="width: 18rem;">
+  				<img src="Blog.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text">A Sample Blog</p>
+ 					</div>
+				</div>
+			</a>
+			<a class="col-6" href="BootstrapImageGallery.html">
+				<div class="card" style="width: 18rem;">
+  				<img src="Gallery.png" class="card-img-top" alt="Website Preview">
+  					<div class="card-body">
+    				<p class="card-text">Bootstrap Image Gallery from Colt Steele's Udemy Bootcamp</p>
+ 					</div>
+				</div>
+			</a>
+		</div>
+		<div class="row">
+			<a class="col-12 btn btn-success my-2" id="projects" href="ProjectList.html" target="_blank">Show All</a>
+		</div>
+
+
+		<div id="contact" class="jumbotron jumbotron-fluid bg-info text-light text-center px-5">
+		  <h1 class="display-3">Contact Information</h1>
+		  <h2 class="lead my-4">Feel free to reach out!</h2>
+		  <hr class="my-1">
+		  	<div class="profile-links my-5 mx-5 d-flex justify-content-between">
+			 	<a href="https://www.linkedin.com/in/demetriouslloyd/" target="_blank" class="contact-details bg-dark py-5 px-5">LinkedIn</a>
+				<a href="mailto: dlloydagencies@gmail.com" target="_blank" class="contact-details bg-dark py-5 px-5">Email</a>
+				<a id="profile-link" href="https://github.com/demetriousLloyd/" target="_blank" class="contact-details bg-dark py-5 px-5">Github</a>
+			</div>
+		</div>
+	<footer class="text-center mb-4">
+		<p>Last update January 2019.</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#navbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
 </html>
